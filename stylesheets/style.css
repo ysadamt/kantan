@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter-Regular.ttf");
+}
+
+body {
+    background-color: #fafafa;
+    text-align: center;
+    color: #505050;
+    font-family: 'Inter', sans-serif;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #fafafa;
+}
+
+#main {
+    position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+h1 {
+    font-size: 80px;
+}
+
+.chineseFont {
+    font-family: "KaiTi Regular", sans-serif;
+}
+
+a {
+    font-size: 18px;
+}
+
+p {
+    color: inherit;
+    font-size: 14px;
+}
+
+
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 65px;
+}
